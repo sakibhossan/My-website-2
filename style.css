@@ -102,24 +102,44 @@ margin-left:100px;
 
 }
 .animation{
-    width:200px;
-    height:200px;
+    margin-top: 100px;
+    width:400px;
+    height:400px;
     background-color:black;
+   margin-left: 100px;
 }
 .circle{
     width:50px;
     height:50px;
     background-color: yellow;
-    border-radius:25%
+    border-radius:50%;
+    animation: sliding 1s ease-in-out 0.5s infinite alternate ;
+    animation-play-state: running;
+    position:relative;
 }
-.css-animation{
-    margin-left: 1000px;
-}
+
+
 footer{
     text-align:center;
     background-color: blanchedalmond;
     
 
+}
+@keyframes sliding {
+    0%{
+        left:0;
+        top:0;
+    
+    }
+    50%{
+        top:350px;
+
+    }
+    100%{left:350px;
+        top:0;
+
+    }
+    
 }
 
 
