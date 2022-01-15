@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Oswald&family=Poppins:wght@500&family=Rubik&display=swap');
-
+/* ------stylesheet-------- */
 body{
     font-family: 'Inter', sans-serif;
 font-family: 'Oswald', sans-serif;
@@ -100,6 +100,7 @@ padding-left: 10px;
     
     
 }
+/* -------animation start------ */
 .animation-container{
     display:flex;
     width:70%;
@@ -127,15 +128,18 @@ padding-left: 10px;
     animation-play-state: running;
     position:relative;
 }
+/* -------animation end-------- */
 
 
-
+/* ------footer start------ */
 footer{
     text-align:center;
     background-color: blanchedalmond;
     
 
 }
+/* ------footer end------ */
+/* ------annimation----- */
 @keyframes sliding {
     0%{
         left:0;
@@ -187,6 +191,40 @@ footer{
 
     
 }
+/* -------tab devices----- */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .program{ 
+        
+        grid-template-columns: repeat(2,1fr);
+        flex-direction: column;
+    }
+    /* .products-camera{
+        width:100%
+    } */
+.products-camera img{
+    width:100%;
+}
+.bar-element{
+    grid-template-columns: repeat(2,1fr);
 
+}.all-collection1{
+    grid-template-columns: repeat(2,1fr);
+    flex-direction: column;
+  
+
+}
+
+
+
+
+.animation-container{
+    grid-template-columns: repeat(2,1fr);
+    flex-direction: column;
+
+}
+
+    
+}
+/* -----end my website work------ */
 
 
