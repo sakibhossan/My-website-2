@@ -19,7 +19,7 @@ background-color: rgb(148, 134, 134)
 
 
 .inflencer{
-    padding-left:10%;
+    padding-left:5%;
 }
 
 
@@ -49,12 +49,12 @@ font-family: 'Rubik', sans-serif;
     font-weight: 700;
     color:white;
     border-radius: 20px;
-    padding:10px 40px;
+   
     
 }
 .products-camera img{
     width:70%;
-    padding-left:20%;
+    padding-left:100%;
 }
 
 .choice{
@@ -74,20 +74,8 @@ font-family: 'Rubik', sans-serif;
 }
 .all-collection1{
     
-width: 1300px;
-height: 1580px;
-padding-left: 40px;
-margin-top: 50px;
-margin-left:100px;
-
-
-
-
-
-
-
-
-
+width: 90%;
+padding-left: 10px;
 }
 .all-collection{
     box-shadow: 10px 10px 40px gray ;
@@ -101,12 +89,34 @@ margin-left:100px;
     height:256px;
 
 }
+.link-button2{
+    text-decoration: none;
+    background-color:mediumvioletred;
+    font-weight: 700;
+    color:white;
+    border-radius: 20px;
+    padding:10px 40px;
+    margin-left: 5%;
+    
+    
+}
+.animation-container{
+    display:flex;
+    width:70%;
+}
+.circle-yellow{
+    margin-bottom: 100px;
+    margin-left: 8%;
+    
+}
 .animation{
     margin-top: 100px;
-    width:400px;
-    height:400px;
+    width:300px;
+    height:300px;
     background-color:black;
-   margin-left: 100px;
+   margin-left: 8%;
+ 
+   
 }
 .circle{
     width:50px;
@@ -119,6 +129,7 @@ margin-left:100px;
 }
 
 
+
 footer{
     text-align:center;
     background-color: blanchedalmond;
@@ -129,17 +140,53 @@ footer{
     0%{
         left:0;
         top:0;
+       
     
     }
     50%{
-        top:350px;
+        top:250px;
+        background-color:red ;
 
     }
-    100%{left:350px;
+    100%{
+        left:250px;
         top:0;
+        background-color: peru;
 
     }
     
 }
+/* ---------Media Quees--------- */
+/* --------Phone Devices------ */
+@media only screen and (max-width:688px) {
+    .program{ 
+        
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+    }
+    /* .products-camera{
+        width:100%
+    } */
+.products-camera img{
+    width:100%;
+}
+.bar-element{
+    grid-template-columns: repeat(1,1fr);
+
+}.all-collection1{
+    grid-template-columns: repeat(1,1fr);
+    flex-direction: column;
+
+}.animation-container{
+    grid-template-columns: repeat(1,1fr);
+    flex-direction: column;
+
+}
+     
+   
+
+    
+}
+
 
 
