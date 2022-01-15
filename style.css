@@ -1,4 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Oswald&family=Poppins:wght@500&family=Rubik&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+
+}
+
+
+
+
+
+
 /* -----section---- */
+
+
+
+
 .inflencer{
     padding-left:10%;
 }
@@ -31,9 +50,42 @@ font-family: 'Rubik', sans-serif;
     color:white;
     border-radius: 20px;
     padding:10px 40px;
+    
 }
 .products-camera img{
     width:70%;
     padding-left:20%;
 }
+
+.choice{
+    padding-left: 40%;
+  
+}
+.all-collection1{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-row-gap:30px;
+    background-color:#ffffff;
+}
+.bar-element{
+    position: absolute;
+width: 1000px;
+height: 1580px;
+padding-left: 20px;
+margin-top: 300px;
+margin-left:300px;
+
+background-color: wheat;
+
+}
+.fa-star{
+    color:orange;
+}
+.all-collection .images img{
+    width:300px;
+    height:256px;
+
+}
+
 
